@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ExyteMediaPicker",
+    name: "OneToOneMediaPicker",
     platforms: [
         .iOS(.v15)
     ],
