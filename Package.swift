@@ -4,23 +4,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "OneToOneMediaPicker",
+    name: "ExyteMediaPicker",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         .library(
-            name: "OneToOneMediaPicker",
-            targets: ["OneToOneMediaPicker"]),
+            name: "ExyteMediaPicker",
+            targets: ["ExyteMediaPicker"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "OneToOneMediaPicker",
+            name: "ExyteMediaPicker",
             dependencies: []
         ),
         .testTarget(
             name: "MediaPickerTests",
-            dependencies: ["OneToOneMediaPicker"]),
+            dependencies: ["ExyteMediaPicker"]),
     ]
 )
